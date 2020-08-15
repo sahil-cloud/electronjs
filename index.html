@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <title>NOTES APP 📝</title>
+  </head>
+  <body style="background-color: darkslategray;">
+    <div class="container m-3">
+      <div class="alert alert-danger" role="alert">
+        <span
+          class="d-flex"
+          style="
+            align-items: center;
+            justify-content: center;
+            font-size: large;
+            font-weight: bold;
+            color: black;
+          "
+          >NOTES APP 📝</span
+        >
+      </div>
+      <div class="container m-3">
+        <!-- <form>  -->
+        <div class="col-sm-8 col-md-8">
+          <div class="form-group">
+            <label for="title" style="color: white;">Note Title</label>
+            <input
+              type="text"
+              class="form-control"
+              id="title"
+              name="title"
+              aria-describedby="emailHelp"
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="desc" style="color: white;">Note Description</label>
+            <textarea
+              class="form-control"
+              id="des"
+              name="description"
+              rows="2"
+            ></textarea>
+          </div>
+        </div>
+        <button type="submit" class="b11 btn btn-primary mt-3" id="b11">
+          Add a Note 📓💬
+        </button>
+      </div>
+    </div>
+    <hr />
+    <!-- displaying notes -->
+    <h3 class="m-2">My Notes 📝</h3>
+    <hr />
+    <div class="container-fluid">
+      <div class="row m-3" id="displayNote"></div>
+    </div>
+  </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

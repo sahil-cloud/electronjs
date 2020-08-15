@@ -1,0 +1,14 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "Notes app in electron ",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Sahil Jasuja",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^9.2.0"
+  }
+}
